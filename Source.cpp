@@ -28,7 +28,7 @@ void main()
 		{
 			if (numTest % i == 0)
 			{
-				numTest = numTest / i; // because we know i already is a prime num that is a factor of numTest we can cut him of and the range of the loop
+				numTest = numTest / i; // because we know i already is a prime num that is a factor of numTest we can cut him off and the range of the loop
 				answers.push_back(i); //store the answers of the factor, the largest will be at the end of the vector
 			}
 		}
